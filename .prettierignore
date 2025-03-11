@@ -1,0 +1,10 @@
+.next
+dist
+node_modules/
+bun.lockb
+tsconfig.json
+.eslintrc.json
+package.json
+package-lock.json
+public
+build
