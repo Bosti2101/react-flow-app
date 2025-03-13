@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import '@styles/globals.css'
 import { ReactNode } from 'react'
 import { Inter } from 'next/font/google'
+import Layout from '@components/Layout'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -23,7 +24,9 @@ export default async function RootLayout({
       <head>
         <link rel='icon' href='/favicon.png' sizes='any' />
       </head>
-      <body>{children}</body>
+      <body>
+        <Layout>{children}</Layout>
+      </body>
     </html>
   )
 }
