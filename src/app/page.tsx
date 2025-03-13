@@ -230,7 +230,7 @@ export default function DynamicGrouping() {
         Dynamic Grouping
       </h1>
       <button
-        className='mb-2 block w-40 w-full rounded bg-blue-600 px-4 py-2 hover:bg-blue-500'
+        className='mb-2 block w-40  rounded bg-blue-600 px-4 py-2 hover:bg-blue-500'
         onClick={addNode}
       >
         Add Node
